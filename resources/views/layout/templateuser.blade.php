@@ -71,7 +71,7 @@
               </div>
             </div>
           </div>
-    </div>
+    
 
 </nav>
 
@@ -83,7 +83,91 @@
 
 <br><br><br><br>
 
+<footer class="bg-none text-white text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+        
+        <h4 class="jf"><img src="img/konekin-bulat.png" alt="konekin" class="logo"> Konekin</h4>
+        <p class="col-10 text-secondary">
+          Connect with like-minded experts, enhance your knowledge and skills, and accelerate your career. Become part of a community-owned company.
+        </p>
+        <ul class="list-unstyled mt-5 mb-0">
+          <li>
+            <a href=""><i class="bi bi-twitter-x me-5 text-white"></i></a>
+            <a href="https://www.instagram.com/erlannn.s" target="_blank"><i class="bi bi-instagram text-white"></i></a>
+          </li>
+        </ul>
       </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="jf">Company</h5>
+
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li class="mb-4">
+            <a href="" class="text-secondary text-decoration-none">About</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Carrer</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Mobile</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="jf">Contact</h5>
+
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li class="mb-4">
+            <a href="" class="text-secondary text-decoration-none">Why Konekin?</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Partner with us</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">FAQ's</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="jf">Meet us</h5>
+
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li class="mb-4">
+            <a href="" class="text-secondary text-decoration-none">+0813212493969</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">info@bang.udah.bang</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Jl.Gajah mada</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+</footer>
+
+</div>
         
     </section>
 

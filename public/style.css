@@ -132,6 +132,14 @@ body {
     color: white;
 }
 
+#button-addon3 {
+    background-color: #703FC7;
+    color: white;
+    border-radius: 15px;
+    width: 211px;
+    height: 56px;
+}
+
 .gradient-custom {
     /* fallback for old browsers */
     

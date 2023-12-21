@@ -47,7 +47,7 @@
             <!-- Left links -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link ms-5 " href="/konekin">Home</a>
+                <a class="nav-link ms-5 " href="/homekonekin">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link nav-active ms-5 " href="/community">Community</a>
@@ -64,7 +64,7 @@
                 <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="akun">
                   Hallo,Anisya, M.kom
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu text-black">
                   <li><a class="dropdown-item" href="#">Action</a></li>
                   <li><a class="dropdown-item" href="#">Another action</a></li>
                 </ul>

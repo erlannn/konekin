@@ -51,7 +51,12 @@ Route::get('/createcommunity', function () {
     return view('pages/createcommunity');
 });
 
-Route::get('//mycommunity', function () {
+Route::get('/mycommunity', function () {
 
     return view('pages/mycommunity');
+});
+
+Route::get('/homekonekin', function () {
+
+    return view('pages/homekonekin');
 });

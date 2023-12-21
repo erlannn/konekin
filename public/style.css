@@ -10,6 +10,10 @@ body {
     color: white;
 }
 
+.logo {
+    margin-right: 10px;
+}
+
 .nav-active {
     font-weight: 700;
 }
@@ -333,3 +337,4 @@ body {
 .jf {
     font-weight: 700;
 }
+

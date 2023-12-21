@@ -142,51 +142,73 @@
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h4 class="jf">Konekin</h4>
-        <p class="col-10">
+      <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+        
+        <h4 class="jf"><img src="img/konekin-bulat.png" alt="konekin" class="logo"> Konekin</h4>
+        <p class="col-10 text-secondary">
           Connect with like-minded experts, enhance your knowledge and skills, and accelerate your career. Become part of a community-owned company.
         </p>
         <ul class="list-unstyled mt-5 mb-0">
           <li>
-            <p><i class="bi bi-chat fw-normal"></i>   0831-7363-0203</p>
-          </li>
-          <li>
-            <p><i class="bi bi-envelope"></i>   Konekin@gmail.com</p>
+            <a href=""><i class="bi bi-twitter-x me-5 text-white"></i></a>
+            <a href="https://www.instagram.com/erlannn.s" target="_blank"><i class="bi bi-instagram text-white"></i></a>
           </li>
         </ul>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="jf">Bantuan</h5>
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="jf">Company</h5>
 
-        <ul class="list-unstyled mb-0">
-          <li>
-            <a href="" class="text-white">Bantuan</a>
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li class="mb-4">
+            <a href="" class="text-secondary text-decoration-none">About</a>
           </li>
-          <li>
-            <a href="#!" class="text-white">Syarat dan ketentuan</a>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Carrer</a>
           </li>
-          <li>
-            <a href="#!" class="text-white">FAQ</a>
-          </li>
-          <li>
-            <a href="#!" class="text-white">Kontak</a>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Mobile</a>
           </li>
         </ul>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
-        <h4 class="jf">Subscribe untuk dapatin informasi</h4>
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="jf">Contact</h5>
 
-        <ul class="list-unstyled">
-          <li>
-            <input type="text" class="form-control col-lg-3" placeholder="Email address" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <a href="/signup"><button class="btn" type="button" id="button-addon2">Sign up</button></a>
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li class="mb-4">
+            <a href="" class="text-secondary text-decoration-none">Why Konekin?</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Partner with us</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">FAQ's</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="jf">Meet us</h5>
+
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li class="mb-4">
+            <a href="" class="text-secondary text-decoration-none">+0813212493969</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">info@bang.udah.bang</a>
+          </li>
+          <li class="mb-4">
+            <a href="#!" class="text-secondary text-decoration-none">Jl.Gajah mada</a>
           </li>
         </ul>
       </div>
@@ -196,11 +218,6 @@
   </div>
   <!-- Grid container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-3">
-    <p>2023 Copyright by Konekin, All Right Reserved</p>
-  </div>
-  <!-- Copyright -->
 </footer>
         
     </section>     

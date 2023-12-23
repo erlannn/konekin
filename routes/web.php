@@ -21,6 +21,10 @@ Route::get('/about', function () {
     return view('pages/aboutkonekin');
 });
 
+Route::get('/private', function () {
+    return view('pages/privatecommunity');
+});
+
 Route::get('/contact', function () {
 
     return view('pages/contact');

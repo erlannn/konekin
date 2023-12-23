@@ -223,6 +223,47 @@ body {
 }
 /* End Community */
 
+/* Private */
+
+.PC {
+    margin-top: -330px;
+}
+
+.container .privasi img {
+    border-radius: 10px;
+}
+
+.container .privasi2 h2 {
+    font-weight: 500;
+}
+
+.container .privasi2 p {
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.container .deskripsi {
+    font-weight: 400;
+    color: white;
+}
+
+.container .sign-in {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+
+.container .sign-in a {
+    color: #703FC7;
+    text-decoration: none;
+}
+
+/* END Private */
+
+
 /* About */
 
 .about h1 {

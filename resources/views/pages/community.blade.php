@@ -2,6 +2,8 @@
 
 @section('title', 'Community')
 
+@section('active', 'nav-active')
+
 @section('content')
     
 <div class="text-center communitybrand  mt-5 mx-auto">

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>KONEKIN</title>
+    <title>@yield('title')</title>
     <!-- Link CSS Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
@@ -22,7 +22,7 @@
         <div class="container py-5 h-100">
             
           <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-none text-white">
+<nav class="navbar navbar-expand-lg bg-none">
   <!-- Container wrapper -->
   
 
@@ -50,10 +50,10 @@
                 <a class="nav-link ms-5 " href="/homekonekin">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-active ms-5 " href="/community">Community</a>
+                <a class="nav-link ms-5 " href="/community">Community</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-active ms-5 " href="/aboutkonekin">About</a>
+                <a class="nav-link ms-5 " href="/about">About</a>
               </li>
             </ul>
           </div>
@@ -64,22 +64,22 @@
                 <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="akun">
                   Hallo,Anisya, M.kom
                 </button>
-                <ul class="dropdown-menu text-black">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                  <li><a class="dropdown-item" href="#">Logout</a></li>
                 </ul>
               </div>
             </div>
-          </div>
-    
+          </div> 
 
 </nav>
-
 <br>
-        
-<div class="container">
+
+
+
   @yield('content')
-  </div>
+
+    
 
 <br><br><br><br>
 
@@ -89,34 +89,34 @@
     <!--Grid row-->
     <div class="row">
       <!--Grid column-->
-      <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
         
         <h4 class="jf"><img src="img/konekin-bulat.png" alt="konekin" class="logo"> Konekin</h4>
         <p class="col-10 text-secondary">
-          Connect with like-minded experts, enhance your knowledge and skills, and accelerate your career. Become part of a community-owned company.
+          Let's Discuss!. <br> Have a project or question?, <br> we want to hear your opinion.
         </p>
-        <ul class="list-unstyled mt-5 mb-0">
-          <li>
-            <a href=""><i class="bi bi-twitter-x me-5 text-white"></i></a>
-            <a href="https://www.instagram.com/erlannn.s" target="_blank"><i class="bi bi-instagram text-white"></i></a>
+        <ul class="list-unstyled me-5">
+          <li class="mt-5 me-5">
+            <p class="text-center text-secondary"><span>&copy;</span> All Rights Reserved Konekin.</p>
           </li>
         </ul>
+
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
       <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
-        <h5 class="jf">Company</h5>
+        <h5 class="jf">Community</h5>
 
         <ul class="list-unstyled mb-0 text-secondary">
           <li class="mb-4">
-            <a href="" class="text-secondary text-decoration-none">About</a>
+            <a href="#!" class="text-secondary text-decoration-none">Network</a>
           </li>
           <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">Carrer</a>
+            <a href="#!" class="text-secondary text-decoration-none">Developer</a>
           </li>
           <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">Mobile</a>
+            <a href="#!" class="text-secondary text-decoration-none">Multimedia</a>
           </li>
         </ul>
       </div>
@@ -128,34 +128,25 @@
 
         <ul class="list-unstyled mb-0 text-secondary">
           <li class="mb-4">
-            <a href="" class="text-secondary text-decoration-none">Why Konekin?</a>
+            <a href="" class="text-secondary text-decoration-none">About us</a>
           </li>
           <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">Partner with us</a>
+            <a href="https://www.instagram.com/hmti.itp" target="_blank" class="text-secondary text-decoration-none">Our instagram</a>
           </li>
           <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">FAQ's</a>
-          </li>
-          <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">Blog</a>
+            <a href="#!" class="text-secondary text-decoration-none">konekin@gmail.com</a>
           </li>
         </ul>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
-      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
         <h5 class="jf">Meet us</h5>
 
         <ul class="list-unstyled mb-0 text-secondary">
           <li class="mb-4">
-            <a href="" class="text-secondary text-decoration-none">+0813212493969</a>
-          </li>
-          <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">info@bang.udah.bang</a>
-          </li>
-          <li class="mb-4">
-            <a href="#!" class="text-secondary text-decoration-none">Jl.Gajah mada</a>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31914.744214320144!2d100.35102839501111!3d-0.884395131907496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b8a526503fa9%3A0x7485c0496ad30308!2sInstitut%20Teknologi%20Padang!5e0!3m2!1sid!2sid!4v1703349535007!5m2!1sid!2sid" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </li>
         </ul>
       </div>
@@ -172,10 +163,10 @@
     </section>
 
 
+
       
 
 <!-- -->
-<script src="script.js"></script>
 <!-- Script JS Bootstrap -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

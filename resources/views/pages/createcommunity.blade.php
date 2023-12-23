@@ -12,7 +12,7 @@
             <div class="col-12 col-md-8 col-lg-6 col-xl-9">
               <p>Profile</p>
                 <div class="card bg-dark text-white">
-                    <div class="card-bodyyy ps-2 bg-opacity-25" style="background-color: #703FC7">
+                    <div class="card-bodyyy ps-2 bg-opacity-25">
                         <div class="row">
                             <p class="kt">Kategori</p>
                               <div class="dropdown">
@@ -38,12 +38,12 @@
       <div class="row d-flex justify-content-center text-white align-items-center">
           <div class="col-12 col-md-8 col-lg-6 col-xl-9">
               <div class="card bg-dark text-white">
-                  <div class="card-bodyyy ps-2 bg-opacity-50">
+                  <div class="card-bodyyy ps-2">
                       <div class="row">
                           <p class="kt">Profile Picture</p>
                           <p class="des text-secondary">Image should be at least 600x600px and in JPEG,JPG and PNG format.</p>
                           <img src="img/zizan.png" alt="zizan">
-                          <input type="file" id="myfile" accept="image/png, image/jpeg">
+                          <input type="file" id="myfile" accept="image/png, image/jpeg, image/jpg,">
                       </div>
                   </div>
               </div>
@@ -60,10 +60,10 @@
                 <div class="card-bodyyy ps-2 mx-auto">
                   <p class="kt">Header text</p>
                   <div class="mb-4 mx-auto">
-                    <input class="form-input col-12 bg-dark" type="text" id="exampleInputUsername" placeholder="Username">
+                    <input class="form-input col-12 bg-dark text-white" type="text" id="exampleInputUsername" placeholder="Username">
                   </div>
                   <div class="mb-4 mx-auto">
-                    <textarea class="form-input col-12 bg-dark" placeholder="Desciption" name="" id=""></textarea>
+                    <textarea class="form-input col-12 bg-dark text-white" placeholder="Desciption" name="" id=""></textarea>
                   </div>
                 </div>
             </div>

@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages/home');
+    return view('pages/landpage');
 });
 
 Route::get('/about', function () {
-    return view('pages/about');
+    return view('pages/aboutkonekin');
 });
 
 Route::get('/contact', function () {

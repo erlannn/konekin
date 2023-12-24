@@ -35,7 +35,7 @@
                                 <input class="form-input col-md-12 w-75" type="password" id="exampleinputPassword" placeholder="Password">
                               </div>
                               <div class="log mb-3 col-md-6 mx-auto">
-                                <a href="/community">
+                                <a href="/homekonekin">
                                     <button class="butlog mb-2 pt-2 pb-2 col-md-12 mx-auto text-white " >
                                         Login
                                     </button>
